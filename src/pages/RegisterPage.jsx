@@ -19,7 +19,7 @@ export default function RegisterPage() {
                     <div className="card my-5">
                         <form className="card-body cardbody-color p-lg-5">
                             <div className="text-center">
-                                <img src="src/assets/logo2.jpg" className="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile" />
+                                <img src="https://tpddc54ae6qzasuy.public.blob.vercel-storage.com/dicoding-forum/logo2-TzxkWzuDLgXTTwx5JjcjjzTrCwgkGH.jpg" className="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile" />
                             </div>
                             <RegisterInput onRegister={onRegister} />
                             <div id="emailHelp" className="form-text text-center mb-5 text-dark">
