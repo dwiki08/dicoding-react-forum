@@ -21,7 +21,7 @@ export default function LoginPage() {
                     <div className="card my-5">
                         <form className="card-body cardbody-color p-lg-5">
                             <div className="text-center">
-                                <img src="src/assets/logo.jpg" className="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile" />
+                                <img src="https://tpddc54ae6qzasuy.public.blob.vercel-storage.com/dicoding-forum/logo-Vrr0D7r8swWZ0JKrZNLq834xG0mmw6.jpg" className="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile" />
                             </div>
                             <LoginInput onLogin={onLogin} />
                             <div className="form-text text-center mb-5 text-dark">Not Registered? <Link to={REGISTER_PAGE_PATH} className="text-dark fw-bold"> Create an Account</Link>
