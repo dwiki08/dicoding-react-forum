@@ -8,7 +8,7 @@ function useInput(defaultValue = '') {
     setValue(text);
   };
 
-  return [value, onValueChangeHandler, setValue];
+  return [value, setValue];
 }
 
 export default useInput;
